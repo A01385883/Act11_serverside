@@ -58,3 +58,13 @@ Pero llega a ser menos eficiente para la computadora que simplemente ya tener lo
 Las cuatro pruebas mandan los envíos uno después del otro. ¿Qué parte de crear no ejecuta ninguna? ¿Cómo escribirías una prueba que sí la ejecute?
 
 La parte que detecta nuestras llaves duplicadas, ya que solo hace trigger al detectar 2 claves identicas, para activarla simplemente ocupariamos enviar la misma clave 2 veces a proposito
+
+## Ejercicio D2
+
+Escojan tres requisitos de su backlog: uno de seguridad, uno funcional y uno que hoy no puedan demostrar. Escriban su fila completa, con el estado honesto.
+
+Seguridad el JTW, funcional el manejo de las asistencias y como es que se evita que hallan errores (Ej Falta y Salida a la vez) y como se unen las bitacoras
+
+JTW es cuestion de comprobar si es correcto o noo
+Asistencias debe corroborar que diferentes variables no sean verdaderas a la vez
+Conexiones entre bitacoras no se tienen valores para corroborar que sea la misma actualmente
