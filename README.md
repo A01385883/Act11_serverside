@@ -65,6 +65,6 @@ Escojan tres requisitos de su backlog: uno de seguridad, uno funcional y uno que
 
 Seguridad el JTW, funcional el manejo de las asistencias y como es que se evita que hallan errores (Ej Falta y Salida a la vez) y como se unen las bitacoras
 
-JTW es cuestion de comprobar si es correcto o noo
+JTW es cuestion de comprobar si es correcto o no
 Asistencias debe corroborar que diferentes variables no sean verdaderas a la vez
 Conexiones entre bitacoras no se tienen valores para corroborar que sea la misma actualmente
