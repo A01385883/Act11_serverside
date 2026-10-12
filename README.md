@@ -43,6 +43,7 @@ Ver la rúbrica en la guía. Sube las ramas y el tag `entrega-pruebas`:
 
 ## Bitacora de Memo
 
+## Ejercicio 0
 Cada prueba registra a sus personas con un sufijo al azar (ana.f07ea4b1). ¿Qué pasaría si todas usaran ana?
 
 Fallaria por el hecho de que se detectaria que ya existe, tanto el registro como al revisar detalles relacionadas a esa
@@ -51,3 +52,9 @@ Las pruebas corren contra el PostgreSQL de verdad, no contra una base falsa. ¿Q
 
 Se puede ver que es lo que pasa realmente en la practica en vez de tener que teorizar
 Pero llega a ser menos eficiente para la computadora que simplemente ya tener los datos cargados ahi
+
+## Ejercicio B4
+
+Las cuatro pruebas mandan los envíos uno después del otro. ¿Qué parte de crear no ejecuta ninguna? ¿Cómo escribirías una prueba que sí la ejecute?
+
+La parte que detecta nuestras llaves duplicadas, ya que solo hace trigger al detectar 2 claves identicas, para activarla simplemente ocupariamos enviar la misma clave 2 veces a proposito
