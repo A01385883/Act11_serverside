@@ -40,3 +40,14 @@ Todo commit con código generado por IA debe declararlo con un trailer
 
 Ver la rúbrica en la guía. Sube las ramas y el tag `entrega-pruebas`:
 `git push origin --all ; git push origin --tags`.
+
+## Bitacora de Memo
+
+Cada prueba registra a sus personas con un sufijo al azar (ana.f07ea4b1). ¿Qué pasaría si todas usaran ana?
+
+Fallaria por el hecho de que se detectaria que ya existe, tanto el registro como al revisar detalles relacionadas a esa
+
+Las pruebas corren contra el PostgreSQL de verdad, no contra una base falsa. ¿Qué se gana? ¿Qué se pierde?
+
+Se puede ver que es lo que pasa realmente en la practica en vez de tener que teorizar
+Pero llega a ser menos eficiente para la computadora que simplemente ya tener los datos cargados ahi
